@@ -16,6 +16,35 @@ This project solves these gaps by developing **comprehensive HR dashboards** wit
 
 ---
 
+## 📎 Repository Structure
+
+📁 HR-Analytics-Dashboard/
+├── 📁 data/
+│ └── hrdata.csv # Cleaned HR dataset
+│ ├── excel_dashboard.xlsx # Excel charts & pivot tables
+│ ├── powerbi_dashboard.pbix # Power BI interactive dashboard
+│ └── tableau_dashboard.twbx # Tableau story-style dashboard
+├── 📁 sql/
+│ ├── hr_kpi_queries.sql # All SQL queries used for validation
+│ └── screenshots/ # Query screenshots for README display
+│ ├── sql_employee_count.png
+│ ├── sql_attrition_count.png
+│ ├── sql_attrition_rate.png
+│ ├── sql_active_employees.png
+│ ├── sql_average_age.png
+│ ├── sql_attrition_by_gender.png
+│ ├── sql_department_attrition.png
+│ ├── sql_age_band.png
+│ ├── sql_job_satisfaction_pivot.png
+│ ├── sql_education_field.png
+│ └── sql_age_gender_attrition.png
+├── 📁 images/ # (Optional global images folder)
+│ └── used_in_readme.png
+├── 📄 README.md # Full project documentation
+
+---
+
+
 ## 🎯 Key KPIs Implemented
 - **Employee Count** – Total workforce size.  
 - **Attrition Count** – Number of employees leaving the organization.  
