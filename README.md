@@ -71,6 +71,12 @@ https://github.com/user-attachments/assets/74ab7540-5513-4786-a60e-bfbfaf65cb55
 
 <img width="1552" height="873" alt="Screenshot 2025-09-19 093226" src="https://github.com/user-attachments/assets/3469d8ab-b713-47fd-8035-cb9ffce1dc99" />
 
+
+
+https://github.com/user-attachments/assets/ec130461-09c3-4400-ad20-fa82cda69580
+
+
+
 > *(Screenshots and dashboard files are included in the repository.)*  
 
 ---
