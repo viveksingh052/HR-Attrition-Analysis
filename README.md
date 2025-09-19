@@ -100,6 +100,5 @@ Below are screenshots of the queries used for validation:
 | Education Field Attrition | ![Education Field Query](https://github.com/user-attachments/assets/6fefc9f7-be55-4686-910f-f9bb9f2c7467) |
 | Attrition by Age & Gender | ![Age & Gender Attrition Query](https://github.com/user-attachments/assets/041bb7f3-b0bc-4625-92d9-c9b6ef9a6535) |
 
-> 📁 *All screenshots are stored in the `/sql/screenshots` folder of this repository or linked via GitHub-hosted URLs.*
 
 ***
