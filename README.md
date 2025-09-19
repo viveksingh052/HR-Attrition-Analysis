@@ -10,7 +10,7 @@ The approach mirrors **real-world industry practices**, where data analysts cros
 The HR department struggles with:
 - Lack of clear performance indicators (KPIs) to monitor workforce health.
 - Difficulty in tracking attrition, workforce demographics, and employee satisfaction.
-- No standardized dashboards for leadership to make **data-driven HR decisions**:contentReference[oaicite:0]{index=0}.
+- No standardized dashboards for leadership to make **data-driven HR decisions**.
 
 This project solves these gaps by developing **comprehensive HR dashboards** with validated metrics.
 
