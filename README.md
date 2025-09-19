@@ -28,8 +28,8 @@ This project solves these gaps by developing **comprehensive HR dashboards** wit
 │   ├── hr_kpi_queries.sql # All SQL queries used for validation
 │   └── 📁 screenshots/ # Query screenshots for README display
 ├── 📁 images/ # (Optional global images folder)
-├── 📄 README.md # Full project documentation
-
+│   └── used_in_readme.png # Placeholder for a specific image
+└── 📄 README.md # Full project documentation
 ***
 
 ## 🎯 Key KPIs Implemented
