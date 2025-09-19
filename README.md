@@ -19,16 +19,12 @@ This project solves these gaps by developing **comprehensive HR dashboards** wit
 
 ## 📎 Repository Structure
 HR-Analytics-Dashboard/
-- data/
-    - hrdata.csv
-- dashboards/
-    - excel_dashboard.xlsx
-    - powerbi_dashboard.pbix
-    - tableau_dashboard.twbx
-- sql/
-    - hr_kpi_queries.sql
-    - screenshots/
-- images/
+- - hrdata.csv
+  - excel_dashboard.xlsx
+  - powerbi_dashboard.pbix
+  - tableau_dashboard.twbx
+  - hr_kpi_queries.sql
+  - hr_charts_queries.sql
 - README.md
 ***
 
