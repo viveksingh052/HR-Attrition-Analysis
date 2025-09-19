@@ -32,7 +32,7 @@ The dashboards visualize multiple perspectives of HR data:
 3. **Employees by Age Group** – Assess workforce demographics.  
 4. **Job Satisfaction Ratings** – Track employee engagement levels.  
 5. **Attrition by Education Field** – Spot education-related attrition trends.  
-6. **Attrition by Gender & Age Group** – Combined insights to tailor retention .
+6. **Attrition by Gender & Age Group** – Combined insights to tailor retention.
 
 ---
 
@@ -58,34 +58,47 @@ The dashboards visualize multiple perspectives of HR data:
 ## 📊 Dashboards
 
 🔹 **Excel Dashboard** – Quick analysis using pivot tables and charts.  
-🔹 **Power BI Dashboard** – Fully interactive dashboard with slicers and KPI cards.
-<img width="1280" height="718" alt="Screenshot 2025-09-19 093337" src="https://github.com/user-attachments/assets/b2da75e2-b4c4-448f-b76c-a25cdaf9ed39" />
-
-
-https://github.com/user-attachments/assets/74ab7540-5513-4786-a60e-bfbfaf65cb55
-
-
-
+🔹 **Power BI Dashboard** – Fully interactive dashboard with slicers and KPI cards.  
+<img width="1280" height="718" alt="Power BI Screenshot" src="https://github.com/user-attachments/assets/b2da75e2-b4c4-448f-b76c-a25cdaf9ed39" />
 
 🔹 **Tableau Dashboard** – Storytelling-based dashboard with drill-down analytics.  
-
-<img width="1552" height="873" alt="Screenshot 2025-09-19 093226" src="https://github.com/user-attachments/assets/3469d8ab-b713-47fd-8035-cb9ffce1dc99" />
-
-
-
-https://github.com/user-attachments/assets/ec130461-09c3-4400-ad20-fa82cda69580
-
-
+<img width="1552" height="873" alt="Tableau Screenshot" src="https://github.com/user-attachments/assets/ec130461-09c3-4400-ad20-fa82cda69580" />
 
 > *(Screenshots and dashboard files are included in the repository.)*  
 
 ---
 
-## 🚀 Key Learning Outcomes
-- Designing **multi-tool dashboards** similar to real-world corporate environments.  
-- Implementing **cross-validation using SQL** for data accuracy.  
-- Building HR insights that directly support **strategic workforce planning and retention policies**.  
+## 💾 SQL Validation Queries
+
+All KPIs and dashboard visualizations were **validated using SQL queries** executed in SQL Server.  
+Below are screenshots of the queries used for validation:
+
+| KPI and Charts            | SQL Query Screenshot                                                                                   |
+|---------------------------|---------------------------------------------------------------------------------------------------------|
+| Total Employee Count      | ![Employee Count Query](https://github.com/user-attachments/assets/eb49d6ba-5b4e-4f23-8efc-d8f0c857240f) |
+| Attrition Count           | ![Attrition Count Query](https://github.com/user-attachments/assets/b4075b9b-c2e4-4cf3-9028-fc5bce40a373) |
+| Attrition Rate (%)        | ![Attrition Rate Query](https://github.com/user-attachments/assets/5c17f740-69d5-4533-97b0-bea8f531bbda) |
+| Active Employees          | ![Active Employees Query](https://github.com/user-attachments/assets/d2800fed-4a90-470f-b4db-e06be7e7bc7b) |
+| Average Age               | ![Average Age Query](https://github.com/user-attachments/assets/344040f8-10c9-45c5-b09c-13a9d9b6cf49)     |
+| Attrition by Gender       | ![Attrition by Gender Query](https://github.com/user-attachments/assets/8b73275a-7349-495f-a935-ac8746a265e5) |
+| Department-wise Attrition | ![Department Attrition Query](https://github.com/user-attachments/assets/afe4b4b7-f4d1-454e-9974-b810bcbcf462) |
+| Employees by Age Group    | ![Age Band Query](https://github.com/user-attachments/assets/586cac40-d9c7-4583-9ba7-9fbc3ae59ee9)        |
+| Job Satisfaction Pivot    | ![Job Satisfaction Pivot](https://github.com/user-attachments/assets/9eeed97d-a741-4690-93ff-fbc2ed033aee) |
+| Education Field Attrition | ![Education Field Query](https://github.com/user-attachments/assets/6fefc9f7-be55-4686-910f-f9bb9f2c7467) |
+| Attrition by Age & Gender | ![Age & Gender Attrition Query](https://github.com/user-attachments/assets/041bb7f3-b0bc-4625-92d9-c9b6ef9a6535) |
+
+> 📁 *All screenshots are stored in the `/images` folder of this repository or linked via GitHub-hosted URLs.*
 
 ---
 
-## 📎 Repository Structure
+### 💬 Sample SQL Snippet (Attrition Rate)
+
+```sql
+SELECT 
+  ROUND(
+    CAST(COUNT(CASE WHEN attrition = 'Yes' THEN 1 END) AS FLOAT) * 100.0 / 
+    COUNT(*), 
+    2
+  ) AS Attrition_Rate
+FROM hrdata;
+
