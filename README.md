@@ -17,19 +17,18 @@ This project solves these gaps by developing **comprehensive HR dashboards** wit
 ***
 
 ## 📎 Repository Structure
-📁 HR-Analytics-Dashboard/
-├── 📁 data/
-│   └── hrdata.csv # Cleaned HR dataset
-├── 📁 dashboards/
-│   ├── excel_dashboard.xlsx # Excel charts & pivot tables
-│   ├── powerbi_dashboard.pbix # Power BI interactive dashboard
-│   └── tableau_dashboard.twbx # Tableau story-style dashboard
-├── 📁 sql/
-│   ├── hr_kpi_queries.sql # All SQL queries used for validation
-│   └── 📁 screenshots/ # Query screenshots for README display
-├── 📁 images/ # (Optional global images folder)
-│   └── used_in_readme.png # Placeholder for a specific image
-└── 📄 README.md # Full project documentation
+HR-Analytics-Dashboard/
+- data/
+    - hrdata.csv
+- dashboards/
+    - excel_dashboard.xlsx
+    - powerbi_dashboard.pbix
+    - tableau_dashboard.twbx
+- sql/
+    - hr_kpi_queries.sql
+    - screenshots/
+- images/
+- README.md
 ***
 
 ## 🎯 Key KPIs Implemented
