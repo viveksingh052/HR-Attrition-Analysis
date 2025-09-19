@@ -21,7 +21,7 @@ This project solves these gaps by developing **comprehensive HR dashboards** wit
 - **Attrition Count** – Number of employees leaving the organization.  
 - **Attrition Rate (%)** – Proportion of employees leaving compared to total workforce.  
 - **Active Employees** – Distinguishing active vs. inactive employees.  
-- **Average Age** – Workforce demographics analysis:contentReference[oaicite:1]{index=1}.  
+- **Average Age** – Workforce demographics analysis.
 
 ---
 
@@ -32,7 +32,7 @@ The dashboards visualize multiple perspectives of HR data:
 3. **Employees by Age Group** – Assess workforce demographics.  
 4. **Job Satisfaction Ratings** – Track employee engagement levels.  
 5. **Attrition by Education Field** – Spot education-related attrition trends.  
-6. **Attrition by Gender & Age Group** – Combined insights to tailor retention strategies:contentReference[oaicite:2]{index=2}.  
+6. **Attrition by Gender & Age Group** – Combined insights to tailor retention .
 
 ---
 
