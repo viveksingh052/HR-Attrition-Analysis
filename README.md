@@ -1,5 +1,4 @@
 
-https://github.com/user-attachments/assets/c8299bd8-954e-45cc-b476-31e099e149ff
 # 📊 HR Analytics Dashboard Project
 
 ## 📌 Project Overview
