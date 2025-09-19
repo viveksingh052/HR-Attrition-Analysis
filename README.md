@@ -1,3 +1,5 @@
+
+https://github.com/user-attachments/assets/c8299bd8-954e-45cc-b476-31e099e149ff
 # 📊 HR Analytics Dashboard Project
 
 ## 📌 Project Overview
@@ -74,12 +76,22 @@ The dashboards visualize multiple perspectives of HR data:
 🔹 **Excel Dashboard** – Quick analysis using pivot tables and charts.
 🔹 **Power BI Dashboard** – Fully interactive dashboard with slicers and KPI cards.
 <img width="1280" height="718" alt="Screenshot 2025-09-19 093337" src="https://github.com/user-attachments/assets/b2da75e2-b4c4-448f-b76c-a25cdaf9ed39" />
-https://github.com/user-attachments/assets/74ab7540-5513-4786-a60e-bfbfaf65cb55 
+
+
+https://github.com/user-attachments/assets/280490d3-4fce-496e-b731-353a01697fb0
+
+
 
 
 🔹 **Tableau Dashboard** – Storytelling-based dashboard with drill-down analytics.
 <img width="1552" height="873" alt="Screenshot 2025-09-19 093226" src="https://github.com/user-attachments/assets/3469d8ab-b713-47fd-8035-cb9ffce1dc99" />
-https://github.com/user-attachments/assets/ec130461-09c3-4400-ad20-fa82cda69580
+
+
+
+https://github.com/user-attachments/assets/06857229-3be4-472c-a045-7fc52637159d
+
+
+
 
 > *(Screenshots and dashboard files are included in the repository.)*
 
