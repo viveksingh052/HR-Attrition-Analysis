@@ -15,18 +15,8 @@ The HR department struggles with:
 
 This project solves these gaps by developing **comprehensive HR dashboards** with validated metrics.
 
-***
+ ***
 
-## 📎 Repository Structure
-HR-Analytics-Dashboard/
-- - hrdata.csv
-  - excel_dashboard.xlsx
-  - powerbi_dashboard.pbix
-  - tableau_dashboard.twbx
-  - hr_kpi_queries.sql
-  - hr_charts_queries.sql
-- README.md
-***
 
 ## 🎯 Key KPIs Implemented
 * **Employee Count** – Total workforce size.
